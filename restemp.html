@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" >
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+      #flex{
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-wrap: nowrap;
+}      
+#side1 {
+  width: 40%;
+  height: 100%;
+  margin-right: 40px;
+  border: 1px solid black;
+}
+
+#side2 {
+  width: 100%;
+   height:100%;
+   font-size: large;
+}
+#mside{
+  width:100%;
+  height:50%;
+  border: 1px solid gray;
+  padding:20px;
+  margin-bottom: 20px;
+}
+#side3{
+  width:100%;
+  height:50%;
+  padding:10px;
+  border: 1px solid gray;
+padding-bottom: 0px;
+}
+        #img{
+            position:relative;
+        }
+        #taxt{
+            position: absolute;
+            left:3%;
+            bottom:4%;
+            font-size: larger;
+            font-weight: 400;
+        }
+        ul{
+            list-style-type: none;
+        }
+        .special{
+            color: hsl(171, 73%, 41%);
+            padding-right: 10px;
+        }
+        ul li{
+            font-size: large;
+            margin-bottom: 20px;
+        }
+        #pad{
+            padding:10px;
+        }
+        .fill span{
+            color:darkgray;
+            font-size: larger;
+        }
+      #one{
+        width:100%;
+        height: 30px;
+        background-color: lightgrey;
+        border-radius: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        position: relative;
+          }
+      #onefill{
+        position: relative;
+        width:90%;
+        background-color: hsl(171, 73%, 41%);
+        height: 30px;
+        border-radius: 30px;
+      }
+      #oneval{
+        position: absolute;
+        left:50%;
+        top:5px;
+        color:white;
+      }
+      #twofill{
+        position: relative;
+        width:80%;
+        background-color: hsl(171, 73%, 41%);
+        height: 30px;
+        border-radius: 30px;
+      }
+      #twoval{
+        position: absolute;
+        left:50%;
+        top:5px;
+        color:white;
+      }
+      #threefill{
+        position: relative;
+        width:80%;
+        background-color: hsl(171, 73%, 41%);
+        height: 30px;
+        border-radius: 30px;
+      }
+      #threeval{
+        position: absolute;
+        left:50%;
+        top:5px;
+        color:white;
+      }
+      #fourfill{
+        position: relative;
+        width:50%;
+        background-color: hsl(171, 73%, 41%);
+        height: 30px;
+        border-radius: 30px;
+      }
+      #fourval{
+        position: absolute;
+        left:50%;
+        top:5px;
+        color:white;
+      }
+      #fillone{
+        position: relative;
+        width:100%;
+        background-color: hsl(171, 73%, 41%);
+        height: 30px;
+        border-radius: 30px;
+      }
+      #filltwo{
+        position: relative;
+        width:50%;
+        background-color: hsl(171, 73%, 41%);
+        height: 30px;
+        border-radius: 30px;
+      }
+      #fillthree{
+        position: relative;
+        width:30%;
+        background-color: hsl(171, 73%, 41%);
+        height: 30px;
+        border-radius: 30px;
+      }
+           </style>
+</head>
+<body>
+  <div id="flex">
+    <div id="side1">
+      <div id="img">
+        <img src="https://www.w3schools.com/w3images/avatar_hat.jpg" width="100%" height="100%">
+        <div id="taxt">Jahne Dae</div>
+      </div>
+      <div id="sec1">
+        <ul>
+                <li><i class="fa-solid fa-briefcase special"></i>Designer </li>
+                <i><i class="fa-solid fa-house-chimney special"></i>London, UK </li>
+                <li><i class="fa-solid fa-envelope special"></i>ex@mail.com </li>
+                <li><i class="fa-solid fa-phone special"></i>1224435534 </li>
+        </ul>
+      </div>
+      <hr>
+      <div id="pad">
+        <span><i class="fa-solid fa-star-of-life special" style="margin-bottom: 30px;"></i>Skills</span><br>
+<div class="fill">
+  <span> Adope phtoshop    </span>
+  <div id="one">
+    <div id="onefill"><div id="oneval">90%</div></div>
+  </div>
+</div>
+<div class="fill">
+  <span> Photography   </span>
+  <div id="one">
+    <div id="twofill"><div id="twoval">80%</div></div>
+  </div>
+</div>
+<div class="fill">
+  <span> Illustrator  </span>
+  <div id="one">
+    <div id="threefill"><div id="threeval">75%</div></div>
+  </div>
+</div>
+<div class="fill">
+  <span> Media   </span>
+  <div id="one">
+    <div id="fourfill"><div id="fourval">50%</div></div>
+  </div>
+</div>
+
+<span><i class="fa-solid fa-earth-americas special"></i> &nbsp; &nbsp; &nbsp;Languages</span>
+<div class="lang">
+  <span style="margin-bottom: 30px;"> English </span>
+  <div id="one">
+    <div id="fillone"></div>
+  </div>
+  <span> Spanish</span>
+  <div id="one">
+    <div id="filltwo"></div>
+  </div>
+  <span> German </span>
+  <div id="one">
+    <div id="fillthree"></div>
+  </div>
+</div>
+    </div>
+    </div>
+  <div id="side2">
+    <div id="mside">
+    <b style="font-size:xx-large"><i class="fa-solid fa-suitcase special"></i>Work Experience</b><br>
+    <p>Front End Developer / w3schools.com</p>
+    <p class="special"><i class="fa-regular fa-calendar-days special"></i>
+       january2015-<span style="color:white;background-color:hsl(171, 73%, 41%); ;">Current</span></p>
+       <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste</p>
+      <hr style="color:gray">
+      <p>Web Developer / something.com</p>
+      <p class="special"><i class="fa-regular fa-calendar-days special"></i>
+        March 2012- December 2014</p>
+        <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+        <hr style="color:gray">
+        <p>Graphic Designer / designsomething.com</p>
+        <p class="special"><i class="fa-regular fa-calendar-days special"></i>
+          Jun 2010 - Mar 2012</p>      
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+      <div id="side3">
+        <p style="font-size:x-large"><i class="fa-solid fa-star-of-life special"></i>Education</p>
+        <p>W3Schools.com</p>
+        <p class="special"><i class="fa-regular fa-calendar-days special"></i>
+          <span style="color:white;background-color:hsl(171, 73%, 41%); ;">Forever</span></p>
+          <p>Web Development! All I need to know in one place</p>
+          <hr style="color:gray">
+          <p>London Business School</p>
+          <p class="special" style="color:hsl(171, 73%, 41%);"><i class="fa-regular fa-calendar-days special"></i>
+            2013 - 2015</p>  
+          <p>Master Degree</p>
+          <hr style="color:gray">
+          <p>School of Coding</p>
+          <p class="special" style="color:hsl(171, 73%, 41%);"><i class="fa-regular fa-calendar-days special"></i>
+            2010 - 2013</p> 
+            <p>Bachelor Degree</p>
+      </div>
+  </div>
+</div>  
+  </body>
+  </html>
+   
